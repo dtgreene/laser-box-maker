@@ -8,6 +8,6 @@ Web app for making simple laser cut boxes - [View on GitHub Pages](https://dtgre
 
 ![image](https://github.com/user-attachments/assets/d2c774bf-f936-48cc-a463-4f02f8fe4ba4)
 
-If you need more advanced usage, check out these other tools:
+If you need more advanced usage, check out these other tools (no affiliation):
 - [MakerCase](https://ja.makercase.com/#/)
 - [Boxes.py](https://boxes.hackerspace-bamberg.de/?language=en)
