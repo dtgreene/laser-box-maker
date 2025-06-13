@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  src: url('./assets/Montserrat-VariableFont_wght.ttf') format('opentype');
+}
+
+@theme {
+  --color-background: rgb(15, 15, 19);
+  --color-foreground: rgb(28, 28, 36);
+}
+
+:root {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+body {
+  @apply text-white bg-background p-8;
+}

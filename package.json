@@ -1,0 +1,32 @@
+{
+  "name": "laser-box-maker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "build:ghpages": "vite build --base=https://{YOUR_GH_USERNAME}.github.io/{REPO_NAME}/dist/",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.4",
+    "@react-three/drei": "^10.2.0",
+    "@react-three/fiber": "^9.1.2",
+    "client-zip": "^2.5.0",
+    "clsx": "^2.1.1",
+    "lodash.startcase": "^4.4.0",
+    "potpack": "^2.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hook-form": "^7.57.0",
+    "three": "^0.177.0",
+    "valtio": "^2.1.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.8",
+    "@vitejs/plugin-react": "^4.5.1",
+    "tailwindcss": "^4.1.8",
+    "vite": "^6.3.5"
+  }
+}
