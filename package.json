@@ -6,7 +6,7 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "build:ghpages": "vite build --base=https://{YOUR_GH_USERNAME}.github.io/{REPO_NAME}/dist/",
+    "build:ghpages": "vite build --base=https://dtgreene.github.io/laser-box-maker/dist/",
     "preview": "vite preview"
   },
   "dependencies": {
