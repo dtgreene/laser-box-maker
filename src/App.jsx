@@ -7,11 +7,11 @@ import * as THREE from 'three';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Edges } from '@react-three/drei';
 import potpack from 'potpack';
+import { STLExporter } from 'three/examples/jsm/Addons.js';
+import { downloadZip } from 'client-zip';
 
 import Box1Src from './assets/box_1.png';
 import Box2Src from './assets/box_2.png';
-import { STLExporter } from 'three/examples/jsm/Addons.js';
-import { downloadZip } from 'client-zip';
 
 const exporter = new STLExporter();
 const serializer = new XMLSerializer();
