@@ -210,13 +210,13 @@ function createSVG(width, height) {
   return svg;
 }
 
-function pointsToD(points, transX = 0, transY = 0) {
+function pointsToD(points, xOffset = 0, yOffset = 0) {
   return points
     .map(([x, y], index) => {
       if (index === 0) {
-        return moveTo(x + transX, y + transY);
+        return moveTo(x + xOffset, y + yOffset);
       }
-      return lineTo(x + transX, y + transY);
+      return lineTo(x + xOffset, y + yOffset);
     })
     .concat('Z')
     .join(' ');
