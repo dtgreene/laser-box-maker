@@ -3,7 +3,7 @@
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
-  src: url('Montserrat-VariableFont_wght.ttf') format('opentype');
+  src: url('./assets/Montserrat-VariableFont_wght.ttf') format('opentype');
 }
 
 @theme {
